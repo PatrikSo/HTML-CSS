@@ -1,0 +1,38 @@
+Chapter 1 notes:
+
+Summary:
+   - see how HTML describes the structure of a web page
+   - learn how tags or elements are added to a doc
+   - writting your first web-page
+
+- hierarchy of information
+- there is a structure in  web pages
+- structure begins with <html>, then <body>, then anything inbetween (like <h#> for headers where # is a number or <p> for paragraph)
+- HTML code in blue is made up of characters that live in brackets (angled) [known as HTML elements]
+- elements are made up of two tags, opening and closing tags
+- tags tell you about the information inbetween
+- tag and element are interchangeable
+- attributes give more information on whats inside an element, appearing in the opening tag, they are made up of two parts (name and value)
+- name idicates what kind of extra info. is being given
+- value indicates the setting of the extra info. being given
+
+- <body> everything in the body is shown inside the main browser window
+- <head> information about the page, usually there is a <title> element inside the <head> element
+- <title> content here is shown either in the top of the browser (in URL area) or on the tab for that page (if browser supports tabs)
+
+- HTML stands for HyperText Markup language
+- using Notepad++ for examples from textbook
+
+- Content Management System, areas such as a administrator section of a blog website
+- parts of the content management system only let you edit pieces of the page, so you wont see <html> or <body>
+
+- looking at source code of any website can help you learn the HTML
+- click "View Source" on any page (or find the setting) and it's HTML will display
+
+SUMMARY:
+   - HTML pages are text documents
+   - HTML uses tags to give info special meaning
+   - tags are often called elements too (interchangable)
+   - Tags normally come in pairs (opening tagm closing tag, opening tag as the attributes)
+   - Opening tags carry attributes (optional), tell us more on the content of the elements
+   - to learn HTML you need to know what tags are available to use, what they do, and where they can go!
