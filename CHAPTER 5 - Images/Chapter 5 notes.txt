@@ -1,0 +1,35 @@
+Chapter 5 notes:
+
+Summary:
+    - How to add images to pages
+    - Choosing correct format
+    - Optimizing images for the web
+
+- can use CSS to add images using the backgroun-image property 
+- good practice to save all website used images in one folder
+- <img> element is used to put images into your page
+- <img> has no closing tag, needs a source, an alt and a title
+- attribute src is where you find the image
+- attribute alt is a text description of the image (if the image cant be seen)
+- attribute title is used for additional information on the image
+- img attributes width and height used for image size
+- CSS can be used for specifying image height and width (recommended)
+- Block elements always appear on a new line ( <h1> or <p> )
+- Inline elements sit within a block level element and dont start new lines (like <b>, <em>, <img>)
+- align attribute used to determine placement of image,  (removed in HTML 5, use CSS to do this)
+    - can be set to top, middle, bottom, right, left
+- 3 rules for creating images:
+    - Save images in the right format
+    - Save images at the right size
+    - Use the correct resolution 
+- images for the web should have a resolution of 72 ppi
+- JPGs, GIFs, and PNGs belong to a format called bitmap
+- images with anything larger than 72 ppi only slow down the website
+- <figure> element used to contain images and their caption (so the two are associated)
+- <figcapion> element has been added, allows web page authors to adda  caption to an image
+
+Summary:
+    - <img> used to add images on the web
+    - must specify the src attribute for <img> to locate the actual image, alt attribute used to describe the content of the image
+    - save images in their appropriate format
+    - photo's are best saved as JPEGs, images using flat colors are better saved as GIFs
