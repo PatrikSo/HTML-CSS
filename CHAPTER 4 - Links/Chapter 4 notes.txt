@@ -1,0 +1,45 @@
+Chapter 4 notes:
+
+Summary:
+    - creating links between pages
+    - linking to other sites
+    - email links
+
+- links are the main idea behind websites, they allow you to surf the web
+- types of links:
+    - links between two sites
+    - links between pages in a site
+    - links between parts of a page
+    - links that open new windows
+    - links that start your email 
+
+- <a> element used to create a linke
+- can click anywhere between the <a> and </a> tag
+- href attribute for a links specifies where you go
+- clear link text is always good, helps visitors and people using screen reader software
+- linking to a different website require the href attribute value to be that sites URL
+- absolute URL, a websites full web address
+- URL, stands for Uniform Resource Locator, every web page has one
+- absolute URL starts with the domain name, followed by the path to the page
+- relative URL, URL without the domain name
+- realtive URLs are used in the href attribute when linking two pages on the same website
+- realtive URLs are helpful for setting up websites when you arent hosting it yet
+- folders on a website are referred to as directories
+- root folder, folder that contains all other website folders and pages
+- placing sections of the website into different folders helps organize the website
+- relationships are described as a family tree (parent directory, child directory, so on)
+- relative URLs are used for pages in the same directory
+- to use emails, the href attributes value will have a mailto: in it
+- mailto: is followed by the email address you want the email to be sent to
+- to open a new window with a link you can use the target attribute in a link
+- you set the target="_blank" opens the href address in a new window
+- you use the id attribute thats part of any tag to identify the specific tag
+- you then use the id attribute for a specific tag to link to that part of the page 
+- id is used for linking parts of a page to that same page (just a different part of it)
+
+Summary:
+    - Links are created using the <a> element
+    - <a> element uses the href attribute to indicate the page you are linking to
+    - if linking a page within your own site, best to use relative URLs than absolute ones
+    - if linking a email, you use the mailto: text in the href attribute then place the email
+    - if linking to another part of the same page, you use the id attribute in every tag to refrence that specific tag in the href of the link

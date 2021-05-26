@@ -1,0 +1,26 @@
+Chapter 3 notes:
+
+Summary:
+    - Numbered lists
+    - Bulleted lists
+    - Definition lists
+
+- ordered lists, each item in the list is numbered
+- unordered lists, bullet point lists
+- definition lists, made up by a set of terms along with the definitions for each
+- <ol> element used to make a ordered list
+    - <li> element used to add an element to the list
+- ol has a type attribute to specify the type of bullet point used but the CSS list-style-type property covered later is better
+- <ul> element used to make a unordered list
+    - also uses <li> to add elements to the list
+- <dl> element used to make a definition list
+    - <dt> tag used to contain the term being defined
+    - <dd> tag used to contain the definition of the term being defined
+- can use nested lists!
+
+Summary:
+    - Three types of HTML lists: ordered, unordered, and definition
+    - Ordered lists use numbers
+    - UnOrdered lists use bullets
+    - Definition lists are used to define terminology
+    - Lists can be nested

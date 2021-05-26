@@ -1,0 +1,42 @@
+Chapter 2 notes:
+
+Summary:
+    - Headings and paragraphs
+    - Bold, Italics, Emphasis
+    - Structural and Semantic markup
+
+- Structural markup, elements used to describe headings and parapgraphs 
+- Semantic markup, provides extra information (like emphasis in sentences, quotations, so on)
+- HTML has 6 levels of headings (h1 to h6)
+- <p></p> is for paragraphs
+- <b></b> bolds text
+- <i></i> italics for text
+- <sup></sup> makes the text a superscript
+- <sub></sub> makes the text a subscript
+- white space collapsing, when a page noticed more than one white space next to one another or a line break they are treated as a single space.
+- <br /> adds a line break anywhere you add this tag
+- <hr /> adds a horizontal rule (line)
+- empty elements, elements that dont have any words inbetween an opening and closing tag (usually has only one tag)
+- visual editors, resemble word processors
+- code views, views that show you the code created by the visual editor for manual editing
+- semantic markup, markup only meant to be read (not part of code)
+- <em> allows you to indicate where emphasis should be placed
+- <blockquote> indicates that a block of text is a quotation, longer quotes that take a whole paragraph
+    - <em> and <blockquote> are helpful for search engines, shows them what possible content your web has
+- <strong> indicates the content has strong importance
+- <q> is used for shorter quotes than <blockquote> (doesnt work with explorer)
+- quotes come with a cite attribute for a URL leading to the quotes location
+- <abbr> is for abbreviations or an acronym 
+    - title attribute used to specify the whole term
+- HTML 4 has a seperate tag for acronym's but HTML 5 combined them
+- <cite> is used for referencing a piece of work such as a book
+- <dfn> element is used to indicate the defining instance of a new term (research paper fun)
+- <address> used to contain the contact information of the author of the page
+- hCard microformat for adding physical address information to markup 
+- <ins> element used to show something that was added to a document
+- <del> element used to show text that was deleted from the document
+- <s> element indicates something that is no longer accurate or relevant (should be deleted)
+
+Summary:
+    - HTML elements used to describe the structure of a page (headings, subheadings, paragraphs)
+    - HTML elements used for semantic information (emphasis in text, definitions of acronyms, quotations)
