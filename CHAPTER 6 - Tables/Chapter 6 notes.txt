@@ -1,0 +1,32 @@
+Chapter 6 notes:
+
+Summary:
+    - How to create tables
+    - What info. suits tables
+    - How to represent complex data in tables
+
+- Basic table structure
+    - <table> element used to create a table
+    - <tr> element used to indicate a new row
+    - <td> element used to indicate a new column (inside of <tr>'s)
+- can construct table borders using CSS
+- <th> elment used for table headers (even if table has no header, use one for correct loading)
+- scope attribute in <th> used to indcate if the header is for a row or column
+- colspan attribute in <th> or <td> used to determine full number of columns for specific cell
+- rowspan attribute used to determine full number of rows for specific cell
+- elements exist to help distinguish between last row or first row
+- <thead> element, where the headings of the table should sit
+- <tbody> element, where the body should sit
+- <tfoot> element, where the footer belongs
+- old attributes replaced by CSS but can come accross (dont use in HTML on new sites):
+    - width, used in <table>, indicates table width, can be used in <th> or <td> to indicate cell width
+    - cellpadding, used to add whitespace inside each cell of table
+    - bgcolor, used to indicate background colors of entire tables or specific cells
+- use CSS to control the appearance of site, avoid appearance attributes in HTML!
+
+Summary:
+    - <table> element used to add tabls to websites
+    - tables are drawn out row by row, each row made by <tr> element
+    - each row has a number of cells represented by the <td> element, <th> if header
+    - can make cells span further than a single cell using rowspan and colspan attributes
+    - long tables, can split them into <thead>, <tbody>, <tfoot> (better for reading)

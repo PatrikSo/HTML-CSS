@@ -1,0 +1,49 @@
+Chapter 7 notes:
+
+Summary:
+    - How to collect info from visitors
+    - Different kinds of form controls
+    - New HTML5 form controls
+
+- form, place to input data
+- form controls, types of areas to input information
+- Form structure:
+    - <form> is sued to create a form area, form controls live here
+    - action attribute, value is the URL for the page on server that recieves the information upon form submittion
+    - method attribute, forms can send info in 2 ways (get or post), post sends values of form to end of URL, get is good for short forms (search boxes) and retrieving data from server
+        - post is good for users uploading filesm long forms, sensitive data, or changing database data
+    - get method is the default
+- Text input
+    - size attribute used to control size of text box (dont use anymore, use CSS)
+    - <input> used to determine what type of input is accepted
+- each form control has a name attribute, used to get distinct values (like sending login user and apssword seperatly)
+- maxlength attribute used to limit a form controls input length
+- type="text" is used for inputting text
+- type="password" is used for inputting a password
+- <textarea> used for a area of input for text (should change sizes using CSS but can do so in HTML)
+- type="radio" is used for radio buttons
+    - name attribute, value attribute (value to be sent to server), checked attribute used to indicate which option should be selected upon the page loading
+- type="checkbox" is used for checkboxes, can deselect and re-select
+- <select> element is used to create a drop-down list
+    - <option> elements in select, has 2/more, value attribute used to indicate what value is sent to server
+- using attribute multiple = "multiple" in <select> lets you make a multi-select list
+- type="file" is used for file inputs (like pictures)
+- type="submit" is used for submitting info such as emails
+- type="image" is used for using a image as a submit button
+- type="hidden" is used to make hidden form controls
+- <label> element used to label form controls
+    - for attribute indicates which form control the label belongs to
+- <fieldset> is sued to group related form controls together 
+- <legend> is used to indicate the form controls purpose inside a <fieldset>
+- form validation, checking if the form has been filled out correctly
+- type="date" is used for inputting dates
+- type="email" is used to input email
+- type="url" is used to input URLs
+- type="search: used for search textboxes
+- placeholder is an attribute that can be used in any text form control, adds placeholder text
+
+Summary:
+    - Collecting info from visitors requires form control (<form> element)
+    - information sent from forms are sent in name/value pairs
+    - each form control has a name, values typed into the control is sent to the server
+    - HTML5 introduced new form elements to make form filling easier
