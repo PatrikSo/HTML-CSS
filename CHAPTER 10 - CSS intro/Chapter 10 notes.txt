@@ -1,0 +1,86 @@
+Chapter 10 notes:
+
+Summary:
+    - What is CSS
+    - How it works
+    - Rules, properties and values
+
+- CSS lets you specify rules on how elements can appear
+- CSS rules are the main part of the language, most of the work is remembering the properties
+- Block level elements are all surrounded by a invisible block, can change its appearance using CSS
+- In-line elements can also be targeted by specific CSS rules
+- CSS rules come in two parts, a selector and a declaration
+    - selectors choose what gets applied to the rule
+    - declaration chooses what that rule does
+- CSS declarations sit inside curly brackets and also have two parts 
+    - property, indicating what you want to change from the element
+    - value, value for that given property
+- can put CSS rules into a seperate file (can keep HTML and CSS code somewhat seperate)
+- <link> element is used to tell the page where to find the CSS file
+    - lives inside the head element
+    - link attributes:
+        - href, specifies path
+        - type, specifies type of document (should be text/css, for CSS)
+        - rel, specifies relationship between HTML page and file its linking (should be stylesheet, for CSS)
+- link element per CSS file used!
+- <style> element is used to put CSS code directly into the HTML code
+    - use the type attribute with value "text/css" inside <style>
+    - CSS code goes between the <style> and </style>
+- Multi-page sites should use CSS externally (seperate file)
+    - all pages follow same rules
+    - keeps content seperate/organized
+    - can change full site style by altering one page
+- can use a style attribute for most elements in HTML4 and XHTML (but avoid this)
+- selectors let you target specific elements in your page
+- types of selectors:
+    - Universal selector
+        - applies rule to all elements in document
+    - Type selector
+        - matches element names for rules
+    - Class selector
+        - matches elements whose class attribute matches
+    - ID selector
+        - matches elements whose id matches
+    - Child selector
+        - matches element that is a direct child of another
+    - Descendant selector
+        - matches element that is a descendent to specified element
+    - Adjacent Sibling selector  (only common in IE 7)
+        - matches the element that is the next sibling to another
+    - General Sibling selector   (only common in IE 7)
+        - matches element that is a sibling to another (not only direct siblings)
+- CSS rules cascade
+    - the last CSS rule applied to the element is used (if more than one rule is targeting element)
+    - more specific rules take precedence over general ones (so h1 rules always take over ones that target the whole page)
+- can use !important after any property value to make it a higher precedence in a cascade
+- elements inherit rules/properties, elements inside a body will have the same text affects, so on
+- can make any child inherit from its parent using inherit inside the properties
+- having external CSS code for your site has advantages:
+    - site runs faster
+    - easier to manage the site style
+- CSS history
+    - CSS1 was made in 1996
+    - CSS2 was made in 1998
+    - CSS3 is ongoing, is now being implemented
+- Just like HTML, older browsers may not support all new features, need to keep an eye out!
+- Sites to test your site on several browsers:
+    - http://browsercam.com/
+    - http://browserlab.adobe.com/
+    - http://browsershots.org/
+    - http://crossbrowsertesting.com/
+- also check site on different operating systems and in older versions of browsers
+- browser quirk/CSS bug, when CSS properties may look different between browsers 
+- sites to fix browser bugs:
+    - http://positioniseverything.net/
+    - http://quirksmode.org/
+
+Summary:
+    - CSS treats HTML elements as if they are in their own boxes, use rules to change how they look
+    - Rules are made by using selectors and declarations
+        - selectors indicate which elements are to be targeted 
+        - declarations indicate what value they should take
+    - many types of selectors to target specific groups
+    - declarations have two parts
+        - properties of elements you want to change
+        - value for the properties to be changed
+    - CSS rules can appear in doc or seperate of the HTML page
