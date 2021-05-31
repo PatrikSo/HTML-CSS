@@ -1,0 +1,39 @@
+Chapter 11 notes:
+
+Summary:
+    - How to specify colors
+    - Color terminology/contrast
+    - Background color
+
+- color property lets you specify the color of text inside an element, can specify any color in CSS in 3 ways
+    - RGB values, red, green, blue (255,255,255)
+    - HEX code, six digit codes, red, green, blue (#ee3e80)
+    - Color names, 147 predefined colors in CSS (like DarkCyan)
+    - HSLA is another way in CSS3, discussed later
+- /* comment */ lets you add CSS comments
+- background-color in CSS lets you set an elements background color
+- good color picking tool:
+    - http://colorschemedesigner.com/
+- Hue, natural color
+- Saturation, amount of grey in a color
+- Brightness, amount of black in a color
+- contrast is important, need to actually read the text
+    - high contrast means its easy to see, low contrast is harder to see (more blended)
+- good contrast tool:
+    - http://www.snook.ca/technical/colour_contrast/colour.html
+- opacity property lets you set an elements opacity in CSS
+    - elements 'clearness'
+- when using rgb, you can add a fourth number (aplha number) that determines the colors opacity
+- fallbacks are a good idea, some browsesrs dont support rgb and having another set of colors to fall back to can help
+- hsla is another way in CSS3 that lets you define a color using a hue, saturation, and lightness values
+    - old browsers dont support hsla, need fallbacks
+- can set a fallback by giving the colored element two CSS rules in different color schemes and making one have higher precedence in the cascade
+
+Summary:
+    - Color is good
+    - Three ways to specify color in CSS
+        - RGB values, HEX codes, Color names
+    - use color pickers online!
+    - have good contrast on your site
+    - CSS3 has RGBA, a for aplha, can set alpha values using rgb
+    - CSS3 has HSL values for colors (with optional opacity), HSLA
