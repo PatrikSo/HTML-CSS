@@ -1,0 +1,87 @@
+CHAPTER 8 notes:
+
+Summary:
+    - Different versions of HTML
+    - Grouping elements
+    - Comments, meta info, iframes
+
+- History/versions of HTML
+    - many modern browsers don't support newest HTML versions (need to know versions)
+    - HTML4 released 1997, avoid using page appearance changers (code so far used was good in HTML4)
+    - XHTML 1.0 released 2000, XML released 1998 (used for markup languages like HTML)
+        - XHTML was a XML ruled HTML, HTML4 following XML rules
+    - HTML5 released in 2000, HTML5 hasnt finished (new features for HTML4 supporting browsers may miss things)
+- HTML5 elements may still be visible to lower version systems using outside help
+- DOCTYPE declaration at beginning of the page to tell browser which version is being used
+    - can help render pages correctly
+- DOCTYPE's:
+    - <!DOCTYPE html>                                  for HTML5
+    - <!DOCTYPE html PUBLIC                            for HTML4
+        "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+    - <!DOCTYPE html PUBLIC                            for Transitional XHTML 1.0
+        "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/
+         xhtml1-transitional.dtd">
+    - <!DOCTYPE html PUBLIC                            for Strict XHTML 1.0
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/
+         xhtml1-strict.dtd">
+    - <?xm; version="1.0" ?>                           for XML declaration
+- <!-- --> used to add comments in code for HTML (text inbetween the -- --)
+- id attributes can be added to any element in HTML (regular variable syntax)
+- id's also let you stylize elements uniquely using CSS
+- id's also let your Javascripts to work with specific elements
+- id's are a global attribute, called on any element
+- CSS id value pullquote used to uppercase text
+- every HTML element has a class attribute, can group elements under a 'group id'
+- class value of importance is uppercased, class value of admittance is red
+- class values only change groups based off of CSS actions
+- elements can belong to several classes (split by spaces)
+- block level elements, elements starting at the next line (or block)
+- <h1>, <p>, so on are block elements (make new lines/blocks)
+- inline elements are those that dont start a new block or line
+- <em>, <b>, so on are inline elements
+- <div> element allows you to group elements into their own blocks
+    - has no affect on appearence, only makes a new line!
+    - can use id or class attribute on a <div>, can use CSS styles on the block specifically!
+- <span> element used as a inline equivalent to <div>
+    - used to differentiate text that doesnt belong anywhere else
+    - lets you contain a number of inline elements
+    - use CSS div tactics but inline
+- <iframe> element used to create windows to another page inside of your page
+    - main usage (most popular) is to embed Google maps into a page
+    - iframe attributes:
+        - src attribute, specifies URL of page to show in iframe
+        - height attribute, specifies the height of iframe
+        - width attribute, specifies the width of iframe
+        - scrolling attribute, can add a side scroller (not supported in HTML5, but works in HTML4 and XHTML)
+        - frameborder attribute, can add a frame to the iframe (not supported in HTML5, with HTML4 and XHTML)
+        - seamless attribute, used when scrollbars arent disired (works in HTML5)
+- <meta> element lives in the <head> element and contains info on the page
+    - gives engine data (not users)
+    - empty element (no closing tag)
+    - meta attributes:
+        - name and content are most popular attributes by far (specify properties of the entire page)
+        - defined values for name attribute:
+            - description, contains description of the page (gives engine a description)
+            - keywords, gives engines keywords on what is on the page (not really used anymore)
+            - robots, lets you set if your page can be brought up through searches
+                - value of noindex to not list your page
+                - value of nofollow to list your page but not any pages linked to it
+            - http-equiv / content attributes (used together)
+                - value of author defines the author of the page
+                - value of pragma prevents the browser from catching the page (not allowing local downloads)
+                - value of expires gives an expiration time for when the page expires 
+- HTML has reserved words (like brackets)
+- use escape characters to display reserved words in text, list:
+    - use & and following text for that specific character (look it up), each reserved word has two options for escape characters
+
+Summary:
+    - DOCTYPES tell browsers which version of HTML you are using
+    - can add comments using <!-- comment here --> markers
+    - id and class attributes used to group elements and identify particular ones
+    - <div> and <span> let you group block-level and inline elements together
+    - <iframes> cut windows into web page to another page
+    - <meta> tag allows you to supply al kinds of information about your webpage
+    - Escape characters are used to display reserved words (like <, >, and @)

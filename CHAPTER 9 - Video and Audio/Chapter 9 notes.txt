@@ -1,0 +1,69 @@
+Chapter 9 Notes:
+
+Summary:
+    - How to add Flash movies to site
+    - how to add video and audio to site
+    - HTML5 <video> and <audio> elements
+
+- FLASH IS NO LONGER SUPPORTED 
+- (skipped Flash portions of this chapter)
+
+- Javascript used to add Flash movies
+- SWFObject Javascript used in examples here
+
+- adding audio/video to sites requires two things
+    - file formats
+    - video players/plugins
+- encoding a video is changing it to another format
+- might have to change video formats 
+- websites made before 2010 will generally require a plugin/player
+    - websites originally only made for images and text
+- <video> tag in HTML5 lets you put vids in your site (makes players/plugins useless)
+- not every user may be using HTML5 and still may need a plugin/player
+- Using HTML5, you need to upload in WebM and MP4 formats for videos on your site
+- can use hosted video sites (like YouTube)
+- preparing flash video for site:
+    - convert video into flv
+    - find flv player and play video
+    - include player & video in web page
+- HTML5 <video> element things to be aware of:
+    - Support (tag only supported on recent browsers)
+    - Digital Rights (doesnt support DRM, Digital Rights Management)
+    - Formats (not all browsers support same video formats)
+        - useful formats:
+            - H264 (for InternetExplorer and Safari)
+            - WebM (for Android, Chrome, Firefox, Opera)
+    - Controls (browsers supply their own player controls_
+    - The Browser (how the browser handles elements can make things look bad)
+- <video> tag used to display video using HTML5
+    - video attributes
+        - preload, tells browser what to do when page loads
+            - none, doesnt load when page does 
+            - auto, video loads when page does
+            - metadata, browser just collects the data (information)
+        - src, path to video
+        - poster, lets you specify an image to show while the video is downloading or when video starts playing
+        - width, height, sizes for video
+        - controls, allows the browser to use its video playback controls
+        - autoplay, makes the video file play automatically
+        - loop, video starts over when finished
+- <source> element can be used inside the <video> element (instead of attribute src), useful for playing several videos
+    - source attributes
+        - src, specifies path to video
+        - type, the format of the video
+        - codecs, the codec used to encode the video
+- can combine Flash and HTML5 video plays
+- <audio> element used to add audio to your page using HTML5
+    - audio attributes
+        - src, filepath to audio file
+        - controls, can let browser use its default playback
+        - autoplay, if audio should play automatically
+        - preload, tells browser what to do as audio loads (same as <video>)
+        - loop, can loop audio
+- <source> also works for audio (for multiple audio sources)
+
+Summary:
+    - Flash allows you to add animations, video and audio to web
+    - Flash is no supported on iPhone or iPad (or anymore for a fact)
+    - HTML5 has <video> for adding vids and <audio> for adding audio (only supported on latest browsers)
+    - Browsers that support HTML5 elements do not all support same video and audio formats/elements, need to supply different formats so everyone can see/hear
