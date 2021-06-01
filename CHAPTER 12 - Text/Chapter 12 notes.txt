@@ -1,0 +1,112 @@
+Chapter 12 notes:
+
+Summary:
+    - Size and typeface of text
+    - Bold, Italics, Capitals, Underlines
+    - Spacing between lines, words, and letters
+
+- Two groups thats control appearance of text in CSS
+    - Direct affect on font/appearance (typeface, size, so on)
+    - Affects that work no matter what type of font (color, spacing, so on)
+- Typeface terminology:
+    - Serif, fonts that have extra details at the ends
+    - Sans-Serif, fonts with straight ends
+    - Monospace, fonts with the same width for every letter
+        - common for code
+    - Weight, font weight is how thick the letters are
+    - Style, refers to how the font looks
+    - Stretch, refers to the space between letters in words in a font
+- a browser will only display the font that the user has installed
+- browsers typically support one type of font
+- techniques for text:
+    - Font-Family, fonts that are installed on the users computer
+    - Font-Face, font to be downloaded by CSS if user doesnt have it installed
+    - Service-Based-Font-Face, commercial products you can buy for cool fonts
+- if using a Mac, double check text fonts on PC (PC doesnt smoothly load all Mac fonts)
+- if using PC, your fine (PC fonts all work well with Mac fonts)
+- font-family property lets you specify the typeface that is sued for the text in elements in CSS
+    - value is the typeface's name
+- designer's suggest using no more than 3 types of font per page
+- font-size property lets you set the text size in CSS
+    - can use Pixels as value
+    - can use Percentages as value
+    - can use Em of a letter (letter width compared to m)
+- European Typographers choose a default ratio for text 400 years ago (photoshop and others use it)
+- Print designers refer to the size of the text as points (not pixels)
+- Points and Pixels are roughly the same size
+- Default text size in browser is 16 pixels
+    - when using percentages or em's, you are working with the default 16 pixels
+- @font-face, lets you use a font the user doesnt have by specifying a path to the font so they can download it
+    - font-family, specifies name of the font
+    - src, URL path to the font
+    - format, format of the font applied
+- open-source fonts for usage:
+    - www.fontsquirrel.com
+    - www.fontex.org
+    - www.openfontlibrary.org
+- websites to but fonts:
+    - www.typekit.com
+    - www.kernest.com
+    - www.fontspring.com
+- font-weight, property to determine your texts weight
+    - value of normal results in text appearing normal
+    - value of bold results in bold text
+- font-style, property to use italics
+    - value of normal, normal text
+    - value of italic, italic text
+    - value of oblique, oblique text
+- text-transform, property to get uppercase/lowercase text
+    - value of uppercase, uppercase text
+    - value of lowercase, lowercase text
+    - value of capitalize, first letter in each word is uppercase
+- text-decoration, property to add underlines and strikes
+    - value of none, removes any decoration already added
+    - value of underline, underlines text
+    - value of overline, adds line over text
+    - value of line-through, adds line through text
+    - value of blink, animates text to flash on/off
+- line-height, property to determine the leading, vertical space of text
+- letter-spacing, property to determine space around letters
+- word-spacing, property to determine space around words
+- text-align, property used to determine text alignment
+    - value of left, left text
+    - value of right, right text
+    - value of center, center text
+    - value of justify, every line in paragraph besides last one takes up full width of containing box
+- vertical-align, vertical alignment of text
+    - value of text-top, text is towards the top of its space
+    - value of baseline, text is on the base of its space
+    - value of text-bottom, text is towards bottom of its space
+    - other values: sub, super, top, middle
+- text-indent, property used to indent text
+    - value is a number for the amount of indent
+- text-shadow, property used to add a drop shadow behind the text
+    - takes three lengths and a color
+        - value 1, length of shadow left to right
+        - value 2, distance top to bottom of shadow
+        - value 3, optional, amount of blur on shadow
+        - final value is the color for the shadow
+- :first-letter, property allowing you to use different values for the first letter in your word
+- :first-line, property allowing you to use different values for the first line in your paragraph
+- :link, property letting you style your links
+- :visited, property letting you style your clicked on links
+- :hover, property letting you style affects based on your mouse hovering the element
+- :active, property letting you stylize an activated element (when a button is pressed, so on)
+- :focus, property letting you stylize elements that let you interact with them (link clicking, form control)
+- CSS has attribute selectors, can make CSS rules applied to elements that have similar attributes with specific values
+    - Selector types:
+        - Existance, matches to any specified value
+        - Equality, matches to any attribute with specified value
+        - Space, matches to any attribute whose value appears as space seperated list of words
+        - Prefix, matches to any attribute whose value begins with a specified substring
+        - Substring, matches to any attribute whose value is a specified substring
+        - Suffix, matches to any attribute whose value ends with a specific string
+
+Summary:
+    - CSS has properties that control font, size, weight, style and spacing of text
+    - limited choice of fonts that are ussumable (that people may have)
+    - can use many available typefaces or buy more
+    - can control space between lines of text, individual letters, and words
+    - can align text left, right, center, or justified
+    - can indent text
+    - can use psuedo-classes to change the style of an element when a user hovers, clicks, or visited a link (properties beggining with :)
